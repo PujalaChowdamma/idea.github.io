@@ -1,0 +1,83 @@
+*{
+    margin: 0; padding: 0;box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+section{
+    height: 115vh;
+    width: 105%;
+    background-image:linear-gradient(#00000063,rgba(0, 0, 0, 0.007)), url('https://i.pinimg.com/originals/a1/9d/8e/a19d8ef679265caed6db046bcbb1dc9e.jpg');
+    background-color: rgba(23, 195, 238, 0.781);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+   
+   color:black;
+   font-weight: bold;
+    background-image: -webkit-image-set();
+    border-radius: 8px;
+    margin-bottom: 20px;
+    
+}
+section p{
+    font-size: 20px;
+    margin-top: 20px;
+    color:  rgb(32, 15, 15);
+    word-spacing: 2px;
+    margin-bottom: 25px;
+}
+.form-group{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128,128,128,0.199);
+    margin-top: 5px;
+}
+textarea{
+    resize: vertical;
+}
+button[type="submit"]{
+    width: 120px;
+    height: 25px;
+    left: 250;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    padding: 25px;
+   vertical-align: middle;
+    font-size: 24px;
+line-height: 8px;
+
+    border-radius: 10px;
+    color: whitesmoke;
+    background: rgb(252, 202, 38);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 35%;
+    transition: .3s ease background-color;
+}
+button[type="submit"]:hover{
+    background-color: whitesmoke;
+    color:red;
+}
+.dropdown{
+    display: inline-block;
+}
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <section>
+          <h1 style="font-size: 60px;color: rgb(255, 4, 4);">Let's Creativity Run Free</h1>
+            <div class="container">
+                <form action="form1.php" method="POST">
+                 
+            
+            <div class="form-group">
+                <label for="Account Name">Account Name</label>
+                <input type="text" id="Account Name" name="Account Name"  placeholder="Enter your Account Name">
+            </div>     
+
+            <div class="form-group">
+                <label for="Project Name">Project Name</label>
+                <input type="text" id="Project Name" name="Project Name" placeholder="Enter your Project Name" style="background-color: rgba(239, 247, 247, 0.712);" >
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"  placeholder="email">
+            </div>  
+            
+            <div class="form-group">
+                <label for="category">Category</label><br>
+                <select name="category" style="width: 480px;height: 30px;font-size: 17px;border: white; background-color: rgba(239, 247, 247, 0.712);">
+                
+                    <option value="Process">Process</option>
+                    <option value="Automation" selected>Automation</option>
+                    <option value="Productivity">Productivity</option>
+               
+                </select>
+            </div>
+          
+
+            <div class="form-group">
+                <label for="message">Description Of The Idea</label>
+                <textarea name="message" cols="30" rows="4" placeholder="Please enter your idea..." required></textarea>
+            </div>     
+
+            <div class="form-group">
+                <label for="content">Expected Benefits</label>
+                <textarea name="content" cols="30" rows="4"  placeholder="Please enter expected benifits..." style="background-color: rgba(239, 247, 247, 0.712);"></textarea>
+            </div>   
+           
+            <div class="form-group">
+                <label for="customer">Is This Customer Intellectual Property</label><br>
+                <select name="customer" style="width: 480px;height: 30px;font-size: 17px;border: white;">
+                
+                    <option value="Yes">Yes</option>
+                    <option value="No" selected>No</option>
+               
+                </select>
+            </div>
+
+            <button type="submit" name="insert">Submit</button>
+
+            </form>
+           
+            </div>
+            <a href="index.htm">Click here to go home page</a>
+        
+       
+        </section>
+
+       
+        
+    </body>
+</html>
